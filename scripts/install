@@ -55,6 +55,10 @@ dockerapp_ynh_findreplaceallvaribles
 # Copy files to the right place
 dockerapp_ynh_copyconf
 
+
+ynh_replace_string --match_string="__DB_USER__" --replace_string=$db_name --target_file=docker/run.sh
+ynh_replace_string --match_string="__DB_PWD__" --replace_string="$db_pwd" --target_file=docker/run.sh
+
 #=================================================
 # START AND CREATE SERVICE
 #=================================================
