@@ -7,7 +7,7 @@
         "en": "A web interface for the Docker engine management",
         "fr": "Une interface web pour la gestion de Docker engine"
     },
-    "version": "1.0",
+    "version": "1.01",
     "license": "AGPL-3.0",
     "maintainer": {
         "name": "aymhce",
